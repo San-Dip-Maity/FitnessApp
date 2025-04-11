@@ -95,6 +95,13 @@ const errorHandeling = (err, req, res, next) => {
     });
 }
 
+app.get("/", (req,res) => {
+    res.json({
+        message: "Welcome to the Fitness App API"
+    })
+}
+)
+
 app.post("/register", async (req,res,next) =>{
    try{
     const parseResult = userSchema.safeParse(req.body)
