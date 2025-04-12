@@ -539,7 +539,7 @@ const Home = () => {
                 <div className="p-2 bg-gradient-to-br from-purple-600 to-indigo-500 rounded-lg shadow-md">
                   <Dumbbell className="w-5 h-5 text-white" />
                 </div>
-                <h1 className="text-3xl font-bold">Sandip</h1>
+                <h1 className="text-3xl font-bold">Eleweight</h1>
               </div>
               <p className="mb-4 text-gray-400">Your personal guide to fitness excellence</p>
               <p className="text-gray-400">Created by Sandip Maity</p>
