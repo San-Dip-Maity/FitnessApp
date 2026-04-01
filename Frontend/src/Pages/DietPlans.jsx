@@ -7,7 +7,7 @@ import NavBar from '../Components/NavBar';
 import { useNavigate } from 'react-router-dom';
 
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+const model = genAI.getGenerativeModel({ model: 'gemini-3-flash-preview' });
 
 const FitnessApp = () => {
   const navigate = useNavigate();
